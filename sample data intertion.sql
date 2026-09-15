@@ -1,4 +1,3 @@
--- Insert departments
 INSERT INTO department (department_name)
 VALUES
 ('IT'),
@@ -6,8 +5,6 @@ VALUES
 ('Finance'),
 ('Sales');
 
-
--- Insert designations
 INSERT INTO designation (designation_name)
 VALUES
 ('Software Engineer'),
@@ -17,7 +14,6 @@ VALUES
 ('Sales Executive');
 
 
--- Insert 25 employees
 INSERT INTO employee
 (employee_name, email, phone, salary, joining_date, department_id, designation_id)
 VALUES
@@ -60,7 +56,7 @@ VALUES
 ('Rakesh Gupta', 23);
 
 
--- Check all tables
+
 SELECT * FROM department;
 
 SELECT * FROM designation;
