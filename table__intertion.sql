@@ -1,16 +1,15 @@
--- Create department table
 CREATE TABLE department (
     department_id SERIAL PRIMARY KEY,
     department_name VARCHAR(100) NOT NULL UNIQUE
 );
 
--- Create designation table
+
 CREATE TABLE designation (
     designation_id SERIAL PRIMARY KEY,
     designation_name VARCHAR(100) NOT NULL UNIQUE
 );
 
--- Create employee table
+
 CREATE TABLE employee (
     employee_id SERIAL PRIMARY KEY,
     employee_name VARCHAR(100) NOT NULL,
@@ -29,7 +28,7 @@ CREATE TABLE employee (
 );
 
 
--- Create manager table
+
 CREATE TABLE manager (
     manager_id SERIAL PRIMARY KEY,
     manager_name VARCHAR(100) NOT NULL,
